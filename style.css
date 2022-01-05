@@ -1,0 +1,35 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.Name{
+    color: darkslategray;
+}
+section{
+    display: flex;
+}
+.Halfwidth {
+    width: 50%;
+    padding-left: 15%;
+}
+.Halfwidth img{
+    margin-top: 5px;
+    width: 60%;
+}
+.LinkButton{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: floralwhite;
+    font-weight: 700;
+    padding: 7px 30px;
+    border-radius: 5px;
+}
+.TopBanner{
+      background-image: url(images/top-banner.png);
+      background-repeat: no-repeat;
+}
+    
+
