@@ -5,10 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-.Name{
+.grey_maker{
     color: darkslategray;
 }
-section{
+.flex_container{
     display: flex;
     margin-bottom: 130px;
 }
@@ -37,4 +37,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.box{
+    width: 40%;
+    margin: 5% 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 20px black;
+    
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#boxes1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(red, blue) 40%;
+}
+#boxes2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(salmon, blue) 40%;
+}
 
+footer p{
+    text-align: center;
+}
